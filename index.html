@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/logoshopi.png" alt="Logo" width="80" height="54" class="d-inline-block align-text-top">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#zapatillas">Zapatillas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ropa">Ropa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros">Nosotros</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/af1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/530.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/airmax90.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<section class="zapatillas" id="zapatillas">
+<div class="container mt-5">
+  <h2 class="text-center mb-4" style="font-size: 2rem; font-weight: 700; font-family: 'Poppins', sans-serif;">
+    Zapatillas Disponibles
+  </h2>
+
+<div class="container mt-4">
+  <div class="row g-4"> 
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/campus00w.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adidas Campus00s White Color</h5>
+          <p class="card-text">$120.000</p>
+        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a>       
+       </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/airmax90.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike Air Max 90</h5>
+          <p class="card-text">$120.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/dunklow.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike Dunk Low</h5>
+          <p class="card-text">$120.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/puma180.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pumas 180</h5>
+          <p class="card-text">$100.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<section class="ropa" id="ropa">
+<div class="container mt-5">
+  <h2 class="text-center mb-4" style="font-size: 2rem; font-weight: 700; font-family: 'Poppins', sans-serif;">
+    Ropa Disponible
+  </h2>
+  </div>
+
+  <div class="container mt-4">
+  <div class="row g-4"> 
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/pantalones.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pantalones cargo black</h5>
+          <p class="card-text">$35.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/animalo polera.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Polera animalo exclusive</h5>
+          <p class="card-text">$70.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/poleron.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Poleron stretware</h5>
+          <p class="card-text">$40.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images/nba.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Polera NBA Chicago</h5>
+          <p class="card-text">$80.000</p>
+          <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#comprarModal">Comprar</a> 
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form>
+        <div class="modal-header">
+          <h5 class="modal-title" id="comprarModalLabel">Comprar producto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          
+          <div class="mb-4 text-center">
+            <span style="font-size: 2rem; margin: 0 10px; color:#003087;">
+              <i class="fab fa-cc-paypal"></i>
+            </span>
+            <span style="font-size: 2rem; margin: 0 10px; color:#1a1f71;">
+              <i class="fab fa-cc-visa"></i>
+            </span>
+            <span style="font-size: 2rem; margin: 0 10px; color:#eb001b;">
+              <i class="fab fa-cc-mastercard"></i>
+            </span>
+            <span style="font-size: 2rem; margin: 0 10px; color:#ff9900;">
+              <i class="fab fa-cc-amazon-pay"></i>
+            </span>
+          </div>
+         
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre en la tarjeta</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="numero" class="form-label">Número de tarjeta</label>
+            <input type="text" class="form-control" id="numero" maxlength="16" required>
+          </div>
+          <div class="mb-3">
+            <label for="expira" class="form-label">Fecha de expiración</label>
+            <input type="text" class="form-control" id="expira" placeholder="MM/AA" required>
+          </div>
+          <div class="mb-3">
+            <label for="cvv" class="form-label">CVV</label>
+            <input type="password" class="form-control" id="cvv" maxlength="4" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="submit" class="btn btn-success">Pagar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<section class="nosotros" id="nosotros">
+<div class="container mt-5" >
+  <h2 class="text-left mb-4" style="font-size: 2rem; font-weight: 700; font-family: 'Poppins', sans-serif;">
+    Nosotros
+  </h2>
+  <p>En Shopi creemos que vestir bien no tiene por qué ser complicado. Somos una tienda dedicada a ofrecer las mejores zapatillas y ropa urbana, combinando estilo, comodidad y calidad en cada producto. Nuestro compromiso es acercarte las últimas tendencias a precios accesibles, con un servicio cercano y confiable. Queremos que cada cliente disfrute la experiencia de encontrar su look ideal y que se sienta parte de la comunidad Shopi, donde la moda y la autenticidad van de la mano.</p>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

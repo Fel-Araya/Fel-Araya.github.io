@@ -1,0 +1,41 @@
+.carousel-item img {
+  height: 500px;      
+  object-fit: cover;   
+  object-position: center; 
+}
+
+.text-center {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center; 
+}
+
+
+.nosotros {
+  background-color: #f8f9fa; 
+  padding: 60px 20px;
+  border-radius: 12px;
+}
+
+.nosotros h2 {
+  color: #222; 
+  position: relative;
+}
+
+.nosotros h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #28a745; 
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.nosotros p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555; 
+  max-width: 800px;
+}
